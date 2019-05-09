@@ -2,7 +2,7 @@ header{
   background: url(../images/code-pic.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 1000px;
+  min-height: 400px;
 }
 
 .grow { 
@@ -20,7 +20,7 @@ header{
 
 @media screen and (max-width: 670px){
   header{
-    min-height: 500px;
+    min-height: 200px;
   }
 }
 
