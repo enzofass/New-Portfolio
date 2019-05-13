@@ -116,8 +116,21 @@
         </div>
       </div>
       <div class="row">
-        <div class="col s12 l4">
-          <img src="assets/images/sound-check-screenshot.png" alt="" class="responsive-img">
+        <div class="carousel col s12">
+          <a class="carousel-item" href="#one!"
+            ><h2>Second Panel</h2>
+            <p class="white-text">This is your second panel</p>
+            <img src="assets/images/sound-check-screenshot.png"
+          /></a>
+          <a class="carousel-item responsive-img" href="#two!"
+            ><img src="assets/images/trivia-game-screenshot.png"
+          /></a>
+          <a class="carousel-item" href="#three!"
+            ><img src="assets/images/crystals-collector-screenshot.png"
+          /></a>
+          <a class="carousel-item" href="#four!"
+            ><img src="assets/images/nyt-search-screenshot.png"
+          /></a>
         </div>
       </div>
     </section>
@@ -139,6 +152,7 @@
     <script>
       $(document).ready(function() {
         $(".sidenav").sidenav();
+        $(".carousel").carousel();
       });
     </script>
   </body>
