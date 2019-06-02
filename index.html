@@ -21,84 +21,74 @@
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!-- navbar -->
     <header class="parallax">
-      <nav class="nav-wrapper transparent">
-        <div class="container">
-          <a href="#" class="brand-logo">Enzo Fassioli</a>
-          <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li><a class="grow grow:hover" href="#about">About</a></li>
-            <li><a class="grow grow:hover" href="#projects">Projects</a></li>
-            <li><a class="grow grow:hover" href="#contact">Contact</a></li>
-            <li>
-              <a
-                href="#"
-                class="tooltipped btn-floating btn-med light-green accent-3 grow grow:hover"
-                data-position="bottom"
-                data-tooltip="GitHub"
-              >
-                <i class="fab fa-github"></i>
-              </a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand text-break" href="#">Enzo Fassioli</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-5 mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link grow grow:hover" href="#"
+                >About <span class="sr-only"></span
+              ></a>
             </li>
-            <li>
-              <a
-                href="#"
-                class="tooltipped btn-floating btn-med light-green accent-3 grow grow:hover"
-                data-position="bottom"
-                data-tooltip="LinkedIn"
-              >
-                <i class="fab fa-linkedin"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link grow grow:hover" href="#"
+                >My Work <span class="sr-only"></span
+              ></a>
             </li>
-            <li>
-              <a
-                href="#"
-                class="tooltipped btn-floating btn-med light-green accent-3 grow grow:hover"
-                data-position="bottom"
-                data-tooltip="Twitter"
-              >
-                <i class="fab fa-twitter"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link grow grow:hover" href="#">Hit Me</a>
+                <span class="sr-only"></span
+              ></a>
             </li>
           </ul>
-          <ul class="sidenav grey lighten-2" id="mobile-menu">
-            <li><a class="grow grow:hover" href="#">About</a></li>
-            <li><a class="grow grow:hover" href="#">Projects</a></li>
-            <li><a class="grow grow:hover" href="#">Contact</a></li>
-            <li>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item navbar-right">
               <a
                 href="#"
-                class="tooltipped btn-floating btn-med light-green accent-3 grow grow:hover"
+                class="nav-link grow grow:hover"
                 data-position="bottom"
                 data-tooltip="GitHub"
               >
                 <i class="fab fa-github"></i>
               </a>
             </li>
-            <li>
+            <li class="nav-item navbar-right">
               <a
                 href="#"
-                class="tooltipped btn-floating btn-med light-green accent-3 grow grow:hover"
-                data-position="center"
-                data-tooltip="LinkedIn"
+                class="nav-link grow grow:hover"
+                data-position="bottom"
+                data-tooltip="GitHub"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
             </li>
-            <li>
+            <li class="nav-item navbar-right">
               <a
                 href="#"
-                class="tooltipped btn-floating btn-med light-green accent-3 grow grow:hover"
+                class="nav-link grow grow:hover"
                 data-position="bottom"
-                data-tooltip="Twitter"
+                data-tooltip="GitHub"
               >
                 <i class="fab fa-twitter"></i>
               </a>
@@ -108,52 +98,17 @@
       </nav>
     </header>
 
-    <!-- project grid -->
-    <section class="container section" id="projects">
-      <div class="row">
-        <div class="col s12">
-          <h2 text-center>Projects</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="carousel col s12">
-          <a class="carousel-item" href="#one!"
-            ><h2>Second Panel</h2>
-            <p class="white-text">This is your second panel</p>
-            <img src="assets/images/sound-check-screenshot.png"
-          /></a>
-          <a class="carousel-item responsive-img" href="#two!"
-            ><img src="assets/images/trivia-game-screenshot.png"
-          /></a>
-          <a class="carousel-item" href="#three!"
-            ><img src="assets/images/crystals-collector-screenshot.png"
-          /></a>
-          <a class="carousel-item" href="#four!"
-            ><img src="assets/images/nyt-search-screenshot.png"
-          /></a>
-        </div>
-      </div>
-    </section>
-
-    <div class="container">
-      <!-- Page Content goes here -->
-    </div>
-
-    <!-- parallax -->
-    <div class="parallax-container">
-      <div class="parallax">
-        <img src="#" alt="" />
-      </div>
-    </div>
-
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $(".sidenav").sidenav();
-        $(".carousel").carousel();
-      });
-    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
