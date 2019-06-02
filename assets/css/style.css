@@ -1,24 +1,31 @@
-header{
+
+header {
   background: url(../images/code-pic.jpg);
   background-size: cover;
   background-position: center;
   min-height: 400px;
 }
 
-.grow { 
-  transition: all .2s ease-in-out; 
+#profile-pic {
+  width: 250px;
+  height: 250px;
+  margin: auto;
 }
 
-.grow:hover { 
-  transform: scale(1.5); 
+.grow {
+  transition: all 0.2s ease-in-out;
 }
 
-.parallax { 
+.grow:hover {
+  transform: scale(1.5);
+}
+
+.parallax {
   /* The image used */
   background-image: url(../images/code-pic.jpg);
 
   /* Set a specific height */
-  height: 500px; 
+  height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -29,11 +36,28 @@ header{
 
 
 
-
-
-@media screen and (max-width: 670px){
-  header{
-    min-height: 200px;
+@media screen and (max-width: 1000px) {
+  .grow {
+    transition: all 0.2s ease-in-out;
+  }
+  .grow:hover {
+    transform: scale(0);
+  }
+  .nav-item {
+    margin-left: 0;
+  }
+  .text-break {
+    margin: 0 auto;
+    
   }
 }
-
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 200px;
+  }
+  #profile-pic {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+}
