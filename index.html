@@ -15,7 +15,7 @@
     />
     <!--Import Google Icon Font-->
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap"
       rel="stylesheet"
     />
     <!-- Compiled and minified CSS -->
@@ -30,80 +30,81 @@
 
   <body>
     <!-- navbar -->
-    <header class="">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand text-break" href="#">Enzo Fassioli</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand text-break" href="#">Enzo Fassioli</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-              <a class="nav-link grow grow:hover" href="#about-me">About </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link grow grow:hover" href="#my-work">My Work </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link grow grow:hover" href="#my-contact">Hit Me </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link grow grow:hover"
-                href="https://drive.google.com/file/d/1q4qGRGotzUMJHs3VCHZod2xLu1VdccYQ/view"
-                target="blank"
-                >Resume</a
-              >
-            </li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item navbar-right">
-              <a
-                href="https://github.com/enzofass"
-                class="nav-link grow grow:hover"
-                data-position="bottom"
-                data-tooltip="GitHub"
-              >
-                <i class="fab fa-github fa-2x"></i>
-              </a>
-            </li>
-            <li class="nav-item navbar-right">
-              <a
-                href="https://www.linkedin.com/in/enzo-fassioli/"
-                class="nav-link grow grow:hover"
-                data-position="bottom"
-                data-tooltip="linkedIn"
-              >
-                <i class="fab fa-linkedin fa-2x"></i>
-              </a>
-            </li>
-            <li class="nav-item navbar-right">
-              <a
-                href="https://twitter.com/enzofass?lang=en"
-                class="nav-link grow grow:hover"
-                data-position="bottom"
-                data-tooltip="twitter"
-              >
-                <i class="fab fa-twitter fa-2x"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div id="profile-pic" class="">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link grow grow:hover" href="#about-me">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link grow grow:hover" href="#my-work">My Work </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link grow grow:hover" href="#my-contact">Hit Me </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link grow grow:hover"
+              href="https://drive.google.com/file/d/1q4qGRGotzUMJHs3VCHZod2xLu1VdccYQ/view"
+              target="blank"
+              >Resume</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item navbar-right">
+            <a
+              href="https://github.com/enzofass"
+              class="nav-link grow grow:hover"
+              data-position="bottom"
+              data-tooltip="GitHub"
+            >
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav-item navbar-right">
+            <a
+              href="https://www.linkedin.com/in/enzo-fassioli/"
+              class="nav-link grow grow:hover"
+              data-position="bottom"
+              data-tooltip="linkedIn"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav-item navbar-right">
+            <a
+              href="https://twitter.com/enzofass?lang=en"
+              class="nav-link grow grow:hover"
+              data-position="bottom"
+              data-tooltip="twitter"
+            >
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="mb-3">
+      <div class="profile-pic">
         <img
           src="assets/images/profile-pic.jpg"
           class="rounded-circle mx-auto d-block img-fluid"
           alt="image of Enzo"
+          id="img-head"
         />
       </div>
     </header>
@@ -269,9 +270,9 @@
               <h5 class="card-title">NewYork Times Search</h5>
               <p class="card-text">
                 <small
-                  >This is an Amazon-like storefront using MySQL and Sequelize
-                  to keep track for product in stock and adjusting inventory
-                  upon purchase.</small
+                  >Basic example of using the New York Times Article API for
+                  retrieving articles based on simple search parameters. (Made
+                  with HTML/CSS, Javascript, and jQuery)</small
                 >
               </p>
             </div>
@@ -296,7 +297,7 @@
                 <small
                   >LIRI is like iPhone's SIRI. However, while SIRI is a Speech
                   Interpretation and Recognition Interface, LIRI is a Language
-                  Interpretation and Recognition Interface. LIRI will be a
+                  Interpretation and Recognition Interface. Simply put it is a
                   command line node.js app that takes in parameters and gives
                   you back data.</small
                 >

@@ -1,11 +1,16 @@
+body {
+  font-family: "Special Elite", cursive;
+}
 header {
   background: url(../images/code-pic.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 400px;
+  min-height: 335px;
 }
-
-#profile-pic {
+h3 {
+  margin-bottom: 0;
+}
+.profile-pic {
   width: 250px;
   height: 250px;
   margin: auto;
@@ -44,7 +49,12 @@ hr.style-four {
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
+#img-head {
+  margin: auto;
+}
+
 /* media queries */
+
 @media screen and (max-width: 1000px) {
   .grow {
     transition: all 0.2s ease-in-out;
@@ -58,15 +68,27 @@ hr.style-four {
   .text-break {
     margin: 0 auto;
   }
+  .profile-pic {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 990px) {
+  .grow:hover {
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 670px) {
   header {
     min-height: 200px;
   }
-  #profile-pic {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+  #img-head {
+    width: 150px;
+    height: 200px;
   }
 }
