@@ -96,7 +96,10 @@ hr.style-four {
     height: 200px;
   }
 
-#bio-body {
-  
-}
+  #bio-body {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
 }
