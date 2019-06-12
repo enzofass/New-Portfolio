@@ -53,6 +53,10 @@ hr.style-four {
   margin: auto;
 }
 
+.card {
+  height: 100%;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1000px) {
@@ -90,5 +94,12 @@ hr.style-four {
   #img-head {
     width: 150px;
     height: 200px;
+  }
+
+  #bio-body {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 }

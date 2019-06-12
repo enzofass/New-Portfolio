@@ -114,7 +114,7 @@
           About this guy <i class="far fa-hand-pointer"></i>
         </h3>
         <hr class="style-four" />
-        <div class="mx-5 my-3 px-5 py-3 border rounded shadow">
+        <div id="bio-body" class="mx-5 my-3 px-5 py-3 border rounded shadow text-justify">
           <p>
             Former Electrical Controls Engineer with a newly discovered passion
             for web and software development. Born in Lima Peru, and moved to
@@ -142,171 +142,193 @@
       <hr class="style-four" />
       <div class="container card-deck my-3">
         <div class="row mb-3">
-          <div class="card shadow">
-            <img
-              src="assets/images/sound-check-screenshot.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">SoundCheck</h5>
-              <p class="card-text">
-                <small
-                  >Using Bands In Town and Spotify API's, you search for an
-                  artist or band and we generate a list of upcoming shows. If
-                  you click on a show we generate a playlist including the full
-                  line-up for the show and saved to your spotify account.</small
-                >
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="https://github.com/enzofass/SoundCheck" class="card-link"
-                ><i class="fab fa-github fa-2x"></i
-              ></a>
-              <a href="https://enzofass.github.io/SoundCheck/" class="card-link"
-                ><i class="fas fa-external-link-alt fa-2x"></i
-              ></a>
-            </div>
-          </div>
-          <div class="card shadow">
-            <img
-              src="assets/images/Bamazon-screenshot.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Bamazon</h5>
-              <p class="card-text">
-                <small
-                  >This is an Amazon-like storefront using MySQL and Sequelize
-                  to keep track for product in stock and adjusting inventory
-                  upon purchase.</small
-                >
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="https://github.com/enzofass/Bamazon" class="card-link"
-                ><i class="fab fa-github fa-2x"></i
-              ></a>
-              <a
-                href="https://fathomless-tundra-93657.herokuapp.com/"
-                class="card-link"
-                ><i class="fas fa-external-link-alt fa-2x"></i
-              ></a>
+          <div class="col">
+            <div class="card shadow">
+              <img
+                src="assets/images/sound-check-screenshot.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">SoundCheck</h5>
+                <p class="card-text">
+                  <small
+                    >Using Bands In Town and Spotify API's, you search for an
+                    artist or band and we generate a list of upcoming shows. If
+                    you click on a show we generate a playlist including the
+                    full line-up for the show and saved to your spotify
+                    account.</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://github.com/enzofass/SoundCheck"
+                  class="card-link"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+                <a
+                  href="https://enzofass.github.io/SoundCheck/"
+                  class="card-link"
+                  ><i class="fas fa-external-link-alt fa-2x"></i
+                ></a>
+              </div>
             </div>
           </div>
-          <div class="card shadow">
-            <img
-              src="assets/images/bvket-screenshot.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">[/bʌkət/]</h5>
-              <p class="card-text">
-                <small
-                  >Utilizing node.js with express and MySQL and sequelize we
-                  created a fun way of creating and tracking a bucket-list. Also
-                  using JWT for authentication and authorization and Bcrypt for
-                  storing password to the DB. Deployed with Heroku and
-                  JawsDB.</small
-                >
-              </p>
+          <div class="col">
+            <div class="card shadow">
+              <img
+                src="assets/images/Bamazon-screenshot.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bamazon</h5>
+                <p class="card-text">
+                  <small
+                    >This is an Amazon-like storefront using MySQL and Sequelize
+                    to keep track for product in stock and adjusting inventory
+                    upon purchase.</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/enzofass/Bamazon" class="card-link"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+                <a
+                  href="https://fathomless-tundra-93657.herokuapp.com/"
+                  class="card-link"
+                  ><i class="fas fa-external-link-alt fa-2x"></i
+                ></a>
+              </div>
             </div>
-            <div class="card-footer">
-              <a
-                href="https://github.com/enzofass/Bucket-List-Project-2"
-                class="card-link"
-                ><i class="fab fa-github fa-2x"></i
-              ></a>
-              <a
-                href="https://shielded-mesa-90274.herokuapp.com/"
-                class="card-link"
-                ><i class="fas fa-external-link-alt fa-2x"></i
-              ></a>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img
+                src="assets/images/bvket-screenshot.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">[/bʌkət/]</h5>
+                <p class="card-text">
+                  <small
+                    >Utilizing node.js with express and MySQL and sequelize we
+                    created a fun way of creating and tracking a bucket-list.
+                    Also using JWT for authentication and authorization and
+                    Bcrypt for storing password to the DB. Deployed with Heroku
+                    and JawsDB.</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://github.com/enzofass/Bucket-List-Project-2"
+                  class="card-link"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+                <a
+                  href="https://shielded-mesa-90274.herokuapp.com/"
+                  class="card-link"
+                  ><i class="fas fa-external-link-alt fa-2x"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="card shadow">
-            <img
-              src="assets/images/Friend-Finder-Screenshot.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Friend Finder</h5>
-              <p class="card-text">
-                <small
-                  >FriendFinder is a compatibility-based application --
-                  basically a dating app. This full-stack site takes in results
-                  from the users' surveys, then compare their answers with those
-                  from other users. The app will then display the name and
-                  picture of the user with the best overall match. Express was
-                  used to handle routing and deployed with Heroku.</small
-                >
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="https://github.com/enzofass/Friend-Finder"
-                class="card-link"
-                ><i class="fab fa-github fa-2x"></i
-              ></a>
-              <a
-                href="https://vast-journey-91513.herokuapp.com/"
-                class="card-link"
-                ><i class="fas fa-external-link-alt fa-2x"></i
-              ></a>
-            </div>
-          </div>
-          <div class="card shadow">
-            <img
-              src="assets/images/nyt-search-screenshot.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">NewYork Times Search</h5>
-              <p class="card-text">
-                <small
-                  >Basic example of using the New York Times Article API for
-                  retrieving articles based on simple search parameters. (Made
-                  with HTML/CSS, Javascript, and jQuery)</small
-                >
-              </p>
-            </div>
-            <div class="card-footer">
-              <a href="https://github.com/enzofass/NYTSearch" class="card-link"
-                ><i class="fab fa-github fa-2x"></i
-              ></a>
-              <a href="https://enzofass.github.io/NYTSearch/" class="card-link"
-                ><i class="fas fa-external-link-alt fa-2x"></i
-              ></a>
+          <div class="col">
+            <div class="card shadow">
+              <img
+                src="assets/images/Friend-Finder-Screenshot.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Friend Finder</h5>
+                <p class="card-text">
+                  <small
+                    >FriendFinder is a compatibility-based application --
+                    basically a dating app. This full-stack site takes in
+                    results from the users' surveys, then compare their answers
+                    with those from other users. The app will then display the
+                    name and picture of the user with the best overall match.
+                    Express was used to handle routing and deployed with
+                    Heroku.</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://github.com/enzofass/Friend-Finder"
+                  class="card-link"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+                <a
+                  href="https://vast-journey-91513.herokuapp.com/"
+                  class="card-link"
+                  ><i class="fas fa-external-link-alt fa-2x"></i
+                ></a>
+              </div>
             </div>
           </div>
-          <div class="card shadow">
-            <img
-              src="assets/images/liri-bot.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Liri</h5>
-              <p class="card-text">
-                <small
-                  >LIRI is like iPhone's SIRI. However, while SIRI is a Speech
-                  Interpretation and Recognition Interface, LIRI is a Language
-                  Interpretation and Recognition Interface. Simply put it is a
-                  command line node.js app that takes in parameters and gives
-                  you back data.</small
-                >
-              </p>
+          <div class="col">
+            <div class="card shadow">
+              <img
+                src="assets/images/nyt-search-screenshot.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">NewYork Times Search</h5>
+                <p class="card-text">
+                  <small
+                    >Basic example of using the New York Times Article API for
+                    retrieving articles based on simple search parameters. (Made
+                    with HTML/CSS, Javascript, and jQuery)</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://github.com/enzofass/NYTSearch"
+                  class="card-link"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+                <a
+                  href="https://enzofass.github.io/NYTSearch/"
+                  class="card-link"
+                  ><i class="fas fa-external-link-alt fa-2x"></i
+                ></a>
+              </div>
             </div>
-            <div class="card-footer">
-              <a href="https://github.com/enzofass/liri-bot" class="card-link"
-                ><i class="fab fa-github fa-2x"></i
-              ></a>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img
+                src="assets/images/liri-bot.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Liri</h5>
+                <p class="card-text">
+                  <small
+                    >LIRI is like iPhone's SIRI. However, while SIRI is a Speech
+                    Interpretation and Recognition Interface, LIRI is a Language
+                    Interpretation and Recognition Interface. Simply put it is a
+                    command line node.js app that takes in parameters and gives
+                    you back data.</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="https://github.com/enzofass/liri-bot" class="card-link"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
