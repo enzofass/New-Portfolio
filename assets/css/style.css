@@ -55,6 +55,7 @@ hr.style-four {
 
 .card {
   height: 100%;
+  margin: auto;
 }
 
 /* media queries */
@@ -91,6 +92,14 @@ hr.style-four {
     height: 200px;
     margin: auto;
   }
+  .row {
+    margin-bottom: 0 !important;
+  }
+
+  /* .card .shadow {
+    margin-bottom: 20px !important;
+  } */
+
   #img-head {
     width: 150px;
     height: 200px;
